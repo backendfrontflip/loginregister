@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* General styles */
+:root {
+    --primary-color: #282c34;
+    --secondary-color: #61dafb;
+    --text-color: #ffffff;
+    --error-color: #ff4d4d;
+    --success-color: #4caf50;
+    --warning-color: #ff9800;
+    --info-color: #2196f3;
+    --border-radius: 4px;
+    --transition-duration: 0.3s;
+    --font-size: 16px;
+    --padding: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--padding);
+}
+.header {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: var(--padding);
+    text-align: center;
+    font-size: 2rem;
+}
+.footer {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    padding: var(--padding);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

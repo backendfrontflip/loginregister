@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "gatewisedb",
+  "main": "index.js",
+  "scripts": {
+    "test": "this server is running",
+    "server": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/backendfrontflip/loginregister.git"
+  },
+  "keywords": [
+    "lgregister"
+  ],
+  "author": "unknown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/backendfrontflip/loginregister/issues"
+  },
+  "homepage": "https://github.com/backendfrontflip/loginregister#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
